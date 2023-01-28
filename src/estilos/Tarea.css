@@ -1,0 +1,61 @@
+.tarea-contenedor{
+  width: 300px;
+  min-height: 300px;
+  background-color: #e7cc33;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/*colores*/
+.tarea-contenedor:nth-child(4n + 1) {
+  background-color: #2cd8d8;
+}
+
+.tarea-contenedor:nth-child(4n + 2) {
+  background-color: #2cd865;
+}
+
+.tarea-contenedor:nth-child(4n + 3) {
+  background-color: #b246e4fb;
+}
+
+.tarea-contenedor:nth-child(4n + 4) {
+  background-color: #e7cc33;
+}
+
+.tarea-texto{
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  display: flex;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+/* iconos-contenedor */
+
+.tarea-icono{
+  color:#dd2121;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.tarea-icono-edit{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  color: #2e2020;
+}
+
+/* tarea completada */
+
+.tarea-contenedor.completada{
+  background-color: #696666;
+  text-decoration: line-through;
+}
